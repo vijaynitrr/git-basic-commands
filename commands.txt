@@ -1,0 +1,18 @@
+
+# Git global config commands
+
+git config --global --user.email vijaykhandalnitrr@gmail.com    
+git config --global --user.name vijay.khandal
+git config --global --list
+
+# To avoid git merge conflicts
+git config --global rerere.enabled true
+
+# for making aliases in github
+git config --global alias.s "status -s"
+
+# to check log
+git log
+git lg
+
+
