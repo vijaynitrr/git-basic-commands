@@ -13,6 +13,16 @@ git config --global alias.s "status -s"
 
 # to check log
 git log
+
+# better way to see logs using like this
+git config --global alias.lg "log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit"
 git lg
+# to see line you have changed using
+git lg -p
 
-
+# when you cloning an repo in your git account and make merge request using
+git pull
+# keep branch updated with upstream
+git remote add upstream <path of upstream>
+# make pull request
+git pull upstream master
